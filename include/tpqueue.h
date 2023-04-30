@@ -8,7 +8,7 @@ struct SYM {
     int prior;
     SYM* next;
 };
-template <class T, int size>
+template <class T>
 class TPQueue {
  private:
     SYM* head;
